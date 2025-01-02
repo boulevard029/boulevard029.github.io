@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f5f0;
+            color: #333;
+        }
+        .menu-container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .menu-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .menu-header h1 {
+            font-size: 2.5rem;
+            color: #d2691e;
+        }
+        .menu-section {
+            margin-bottom: 20px;
+        }
+        .menu-section h2 {
+            font-size: 1.8rem;
+            color: #d2691e;
+            border-bottom: 2px solid #d2691e;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+        .menu-item .name {
+            font-size: 1.2rem;
+        }
+        .menu-item .price {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <div class="menu-header">
+            <h1>Restaurant Name</h1>
+            <p>Welcome to our delicious menu!</p>
+        </div>
+
+        <div class="menu-section">
+            <h2>Appetizers</h2>
+            <div class="menu-item">
+                <span class="name">Bruschetta</span>
+                <span class="price">$6.99</span>
+            </div>
+            <div class="menu-item">
+                <span class="name">Garlic Bread</span>
+                <span class="price">$4.99</span>
+            </div>
+        </div>
+
+        <div class="menu-section">
+            <h2>Main Courses</h2>
+            <div class="menu-item">
+                <span class="name">Grilled Salmon</span>
+                <span class="price">$19.99</span>
+            </div>
+            <div class="menu-item">
+                <span class="name">Spaghetti Carbonara</span>
+                <span class="price">$14.99</span>
+            </div>
+        </div>
+
+        <div class="menu-section">
+            <h2>Desserts</h2>
+            <div class="menu-item">
+                <span class="name">Tiramisu</span>
+                <span class="price">$7.99</span>
+            </div>
+            <div class="menu-item">
+                <span class="name">Chocolate Lava Cake</span>
+                <span class="price">$8.99</span>
+            </div>
+        </div>
+
+        <div class="menu-section">
+            <h2>Beverages</h2>
+            <div class="menu-item">
+                <span class="name">Espresso</span>
+                <span class="price">$2.99</span>
+            </div>
+            <div class="menu-item">
+                <span class="name">Fresh Orange Juice</span>
+                <span class="price">$3.99</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
